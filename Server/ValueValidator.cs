@@ -36,6 +36,7 @@ namespace Server
                     Console.Clear();
                     Console.WriteLine(" Check your input and try again!\r\n");
                 }
+
             }
         }
     }
