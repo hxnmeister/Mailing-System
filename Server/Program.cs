@@ -55,8 +55,8 @@ namespace Server
 
                 SendMethod(ref ipAddress, ref port, ref sendingMessage);
 
-                Console.Write("\n Do you want to send anothed message? (Y/N)");
-            } while (char.ToUpper(Console.ReadKey().KeyChar) != 'N');
+                Console.Write("\n Do you want to send anothed message? ('Y' or any key to exit)");
+            } while (char.ToUpper(Console.ReadKey().KeyChar) == 'Y');
             
         }
     }
