@@ -1,0 +1,3 @@
+In order not to create a dll library for the sake of one class that consists of two methods, I decided to create a file in the Server project that will store this very class with two methods.
+
+The methods themselves are needed in order to avoid redundancy in the code; in the future, when creating a dll library, it will be possible to add this file with the class to this library.
