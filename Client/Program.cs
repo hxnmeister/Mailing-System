@@ -56,6 +56,8 @@ namespace Client
             Console.Clear();
 
             ReceiveMethod(ref ipAddress, ref port);
+
+            Console.ReadKey();
         }
     }
 }
